@@ -1,0 +1,64 @@
+
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "orders": [
+        {
+          "order_id": 101,
+          "date": "2024-12-01",
+          "total": 59.99,
+          "items": [
+            {
+              "product_id": 201,
+              "name": "Wireless Mouse",
+              "quantity": 1,
+              "price": 29.99
+            },
+            {
+              "product_id": 202,
+              "name": "Keyboard",
+              "quantity": 1,
+              "price": 30.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com",
+      "orders": [
+        {
+          "order_id": 102,
+          "date": "2024-12-05",
+          "total": 45.00,
+          "items": [
+            {
+              "product_id": 203,
+              "name": "Headphones",
+              "quantity": 1,
+              "price": 45.00
+            }
+          ]
+        },
+        {
+          "order_id": 103,
+          "date": "2024-12-10",
+          "total": 15.00,
+          "items": [
+            {
+              "product_id": 204,
+              "name": "USB Cable",
+              "quantity": 3,
+              "price": 5.00
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
