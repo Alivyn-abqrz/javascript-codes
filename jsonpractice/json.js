@@ -1,3 +1,4 @@
+// json fetching data 
 let list = ""
 fetch("json.json")
 .then(res => res.json())
