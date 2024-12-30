@@ -38,7 +38,7 @@ console.log(roles)
 // filter
 const developer = sampleArrayNew.filter(value =>   value.role === 'developer')
 console.log(developer)
-// find
+// find first person 
 const Lessthan30 = sampleArrayNew.find((value) => value.age < 30);
 
 console.log(Lessthan30)
